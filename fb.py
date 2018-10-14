@@ -16,3 +16,5 @@ elem = browser.find_element_by_id("pass")
 elem.send_keys(password + Keys.ENTER)
 
 print("Logged into FB")
+
+browser.close()
